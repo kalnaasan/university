@@ -1,0 +1,34 @@
+Übung_o1
+1-a)
+Typisierung: Zuweisung eines Objekts zu einem Datentyp.
+-> dynam Typ.
+
+1-b)
+5 Komponenten
+    -Rechenwerk
+    -Steuerwerk
+    -speicher
+    -Ein / Ausgaben
+    -Buss (Verbindungssystem)
+    -Befehlausführunguyklus
+
+1-c) Flaschenhals, Harward
+
+2-a)
+print: Augabe
+    sep, end (Argumente)
+
+input: eingabe
+    prompt (Argument)
+
+2-b)
+    - TypeError: Eine gewisse Operation kann nicht durchgeführt werden, bei der Datentypen unterschiedlich sind.
+    - InfexError: Der Zugriff auf einen Index oder eine Indexnummer ist nicht möglich.
+    - SyntaxError: Der Code wirderspricht den gesetzten Scprachregeln der Programmiersprache
+    - NameError: Die Namenklassifizierung eines Objekts ist unklar.
+
+3)
+    - k(t) = 2
+    - k(0) = 0,05 MIPS
+    - k(1991) = SOMIPS  Intel. 860
+    - t0 = Zeitspanne in Monaten 

@@ -1,0 +1,15 @@
+import Debug.Trace
+
+collatz 1 = 1
+collatz n = if even n
+  then collatz (trace (n ‘div‘ 2))
+  else collatz (3*n+1)
+
+--a) 
+
+-- b)
+collatzAufrufe 1 counter = counter
+collatzAufrufe n counter =
+  if even n
+  then collatzAufrufe (n ‘div‘ 2) (counter + 1)
+  else collatzAufrufe (3*n+1) (counter + 1)
